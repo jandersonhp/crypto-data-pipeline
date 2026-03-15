@@ -1,3 +1,4 @@
 pandas
 requests
 xlsxwriter
+psycopg2-binary
