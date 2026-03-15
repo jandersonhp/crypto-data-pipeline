@@ -1,0 +1,14 @@
+# Python cache
+__pycache__/
+*.pyc
+
+# Ambiente virtual
+venv/
+.env/
+
+# Dados gerados pelo pipeline
+data/*.csv
+
+# Arquivos do sistema
+.DS_Store
+Thumbs.db
