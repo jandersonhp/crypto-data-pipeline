@@ -8,6 +8,7 @@ venv/
 
 # Dados gerados pelo pipeline
 data/*.csv
+data/*.xlsx
 
 # Arquivos do sistema
 .DS_Store

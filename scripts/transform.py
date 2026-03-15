@@ -1,15 +1,6 @@
 import pandas as pd
 from datetime import datetime
-
-
-TOP_COINS = [
-    "bitcoin",
-    "ethereum",
-    "tether",
-    "bnb",
-    "solana"
-]
-
+from config import TOP_COINS
 
 def transform_crypto_data(data):
 

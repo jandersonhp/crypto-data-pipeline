@@ -1,15 +1,10 @@
 import requests
+from config import API_URL, API_PARAMS
+
 
 def extract_crypto_data():
 
-    url = "https://api.coingecko.com/api/v3/coins/markets"
-
-    params = {
-        "vs_currency": "usd",
-        "per_page": 100
-    }
-
-    response = requests.get(url, params=params)
+    response = requests.get(API_URL, params=API_PARAMS)
 
     data = response.json()
 
